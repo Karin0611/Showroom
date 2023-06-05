@@ -1,0 +1,35 @@
+@media (max-width: 1250px)
+  .bestsellers
+    &__container
+      padding: 87px 0 134px 0
+    &__catalog
+      justify-content: center
+      flex-wrap: wrap
+    &__item
+      margin: 10px
+
+  .policy
+    &__container
+      padding: 70px 0
+    &__content
+      flex-wrap: wrap
+      justify-content: center
+    &__item
+      margin: 10px
+
+@media (max-width: 1070px)
+  .discount
+    &__content
+      flex-direction: column
+      padding: 20px
+    &__code
+      margin: 10px
+  .collections
+    &__container
+      grid-template-columns: repeat(1, 1fr)
+      grid-template-rows: repeat(3, 210px)
+    &__item-big
+      grid-row: span 1
+    &__content-big
+      right: 22px
+      bottom: 46px
