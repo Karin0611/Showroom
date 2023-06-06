@@ -12,6 +12,7 @@
 @import 'footer'
 @import 'copyright'
 @import 'media'
+@import 'libs'
 
 body
   margin: 0
@@ -28,8 +29,57 @@ body
     line-height: 23px
     max-width: 542px
     text-align: center
+
   .btn
     border: none
     cursor: pointer
     width: 130px
     height: 50px
+
+  .slick-arrow
+    background-color: transparent
+    border: none
+    box-sizing: border-box
+    padding: 0
+    cursor: pointer
+
+  .arrowright
+    position: absolute
+    right: -130px
+    bottom: 50%
+    transform: translateY(-50%)
+
+  .arrowleft
+    position: absolute
+    left: -130px
+    bottom: 50%
+    transform: translateY(-50%)
+
+  .bestsellers-arrow-left
+    left: -80px
+
+  .bestsellers-arrow-right
+    right: -80px
+
+  .slick-dots
+    display: flex
+    justify-content: center
+    align-items: center
+    list-style: none
+    padding: 0
+    li
+      margin: 0 8px
+    button
+      background-color: transparent
+      border: 1px solid #161616
+      width: 9px
+      height: 9px
+      border-radius: 50%
+      padding: 0
+      font-size: 0
+      cursor: pointer
+    li.slick-active
+      button
+        background-color: #161616
+
+

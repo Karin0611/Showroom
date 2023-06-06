@@ -1,27 +1,26 @@
 {
-  "name": "showroom",
+  "name": "gulp-start",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vadym Prokopchuk",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.5",
+    "@fancyapps/fancybox": "^3.5.7",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-cli": "^2.2.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^5.0.0",
-    "sass": "^1.35.1"
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.7.0",
+    "mixitup": "^3.3.1",
+    "sass": "^1.58.0",
+    "slick-carousel": "^1.8.1"
+  }
 }

@@ -1,13 +1,17 @@
 .hero
   &__slide
-    height: 550px
     background: url(../img/BG.png) center center/cover no-repeat
+    height: 550px
+    position: relative
   &__container
     max-width: 1130px
     margin: 0 auto
     padding: 20px
   &__content
     width: 470px
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
   &__subtitle
     //font-family: 'Jost'
     font-weight: 400
