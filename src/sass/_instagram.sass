@@ -12,7 +12,8 @@
       text-decoration: none
       color: black
   &__gallery
-    display: flex
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
     margin-top: 42px
     overflow: hidden
   &__link
@@ -34,12 +35,10 @@
   &__icon
     width: 35px
   &__photo
-    width: 25%
     float: left
     position: relative
   &__img
-    max-width: 100%
     width: 100%
-    height: auto
+    height: 100%
 
 
