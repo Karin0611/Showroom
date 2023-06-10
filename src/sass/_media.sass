@@ -8,12 +8,13 @@
   .policy
     &__container
       padding: 70px 0
+
     &__content
       flex-wrap: wrap
       justify-content: center
+
     &__item
       margin: 10px
-
 
 @media (max-width: 1200px)
   .footer
@@ -21,8 +22,10 @@
       padding: 50px 20px
       flex-wrap: wrap
       justify-content: space-around
+
     &__gallery
       display: none
+
     &__link
       &:last-child
         margin-right: 0
@@ -37,28 +40,43 @@
     &__content
       flex-direction: column
       padding: 20px
+
     &__code
       margin: 10px
   .collections
     &__container
       grid-template-columns: repeat(1, 1fr)
       grid-template-rows: repeat(3, 210px)
+
     &__item-big
       grid-row: span 1
+
     &__content-big
       right: 22px
       bottom: 46px
+
+@media (max-width: 900px)
+  .header
+    &__burger
+      display: block
+
+    &__icons,
+    &__search,
+    &__menu
+      display: none
 
 
 @media (max-width: 876px)
   .review
     &__container
-     padding: 70px 20px 100px
+      padding: 70px 20px 100px
   .instagram
     padding: 70px 0
+
     &__info
       img
         width: 40px
+
     &__gallery
       grid-template-columns: repeat(2, 1fr)
 
@@ -66,6 +84,7 @@
   .footer
     &__main
       text-align: center
+
     &__main-content
       display: flex
       align-items: center
@@ -79,9 +98,11 @@
     &__gallery
       grid-template-columns: repeat(1, 1fr)
       text-align: center
+
     &__img
       width: 65%
       height: auto
+
     &__link
       transform: translateX(-50%)
       left: 50%
@@ -95,18 +116,45 @@
       flex-direction: column
       text-align: center
       padding: 20px
+
     &__payment
       margin-top: 10px
 
 @media (max-width: 568px)
+  .rightside-menu
+    li
+      font-size: 40px
+      line-height: 76px
+
+    .icon
+      img
+        width: 20px
+        height: 20px
+  .hero
+    &__slide
+      height: 490px
+    &__content
+      max-width: 400px
+      top: 22%
+      left: 50%
+      transform: translateX(-50%)
+      text-align: center
+      margin: 0 auto
+    &__btn
+      margin: 0 auto
+    &__title
+      font-size: 40px
   .discount
     text-align: center
+
     &__super
       font-size: 20px
       line-height: 29px
+
     &__use
       font-size: 16px
       line-height: 20px
+
     &__code
       padding: 11px 20px
   .title
@@ -118,8 +166,10 @@
 
   .offer
     padding: 60px 20px 70px
+
     &__title
       font-size: 24px
+
       span
         font-size: 45px
   .btn
@@ -128,30 +178,43 @@
     width: 117px
   .newsletter
     padding: 60px 20px 70px
+
     &__title
       font-size: 26px
+
     &__email
       form
         input
           height: 45px
+
         button
           height: 45px
   .footer
     &__link
       margin-right: 23px
+
     &__main-content
       flex-direction: column
 
 
 @media (max-width: 375px)
+  .rightside-menu
+    li
+      font-size: 26px
+      line-height: 50px
+  .hero
+    &__slide
+      height: 415px
   .newsletter
     &__title
       font-size: 24px
       line-height: 35px
+
     &__email
       form
         input
           height: 35px
+
         button
           width: 84px
           height: 35px
