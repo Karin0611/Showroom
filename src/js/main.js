@@ -6,6 +6,21 @@ $(function () {
         $('.rightside-menu').addClass('rightside-menu--close')
     });
 
+    $('.hero__slider').slick({
+        dots: true,
+        prevArrow: '<button type="button" class="arrowleft arrowleftHero"><img src="../img/icons/left-arrow.svg" alt="arrow left"></button>',
+        nextArrow: '<button type="button" class="arrowright arrowrightHero"><img src = "../img/icons/right-arrow.svg" alt = "arrow right"></button>',
+        responsive: [
+            {
+                breakpoint: 1236,
+                settings: {
+                    arrows: false,
+                    dots: true
+                }
+            }
+        ]
+    });
+
     $('.review__slider').slick({
         dots: true,
         prevArrow: '<button type="button" class="arrowleft"><img src="../img/icons/left-arrow.svg" alt="arrow left"></button>',
