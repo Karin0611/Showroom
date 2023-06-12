@@ -8,6 +8,8 @@ $(function () {
 
     $('.hero__slider').slick({
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         prevArrow: '<button type="button" class="arrowleft arrowleftHero"><img src="../img/icons/left-arrow.svg" alt="arrow left"></button>',
         nextArrow: '<button type="button" class="arrowright arrowrightHero"><img src = "../img/icons/right-arrow.svg" alt = "arrow right"></button>',
         responsive: [

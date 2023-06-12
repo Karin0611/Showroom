@@ -34,10 +34,9 @@
   &__post-btn
     background: #023047
     color: white
+    transition: 0.6s
     &:hover
-      top: -5px
-      box-shadow:  0 5px 10px 0 rgba(0, 0, 0, 0.5)
-      transition: 1s
+      box-shadow:  0 15px 15px 0 rgba(0, 0, 0, 0.5)
   &__big
     grid-row: span 2
     img
@@ -55,11 +54,12 @@
       font-weight: 500
       font-size: 24px
       line-height: 31px
-      color: #333333
       text-decoration: underline
       margin-top: 8px
       margin-bottom: 9px
       max-width: 530px
+      a
+        color: #333333
   &__min
     img
       width: 100%
@@ -72,10 +72,11 @@
       font-family: Jost, sans-serif
       font-weight: 500
       font-size: 16px
-      color: #333333
       text-decoration: underline
       margin-top: 8px
       max-width: 265px
+      a
+        color: #333333
   &__descr
     font-family: Jost, sans-serif
     font-weight: 400

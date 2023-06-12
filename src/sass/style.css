@@ -40,6 +40,10 @@
   text-decoration: none;
   font-family: Jost, sans-serif;
   font-weight: 400;
+  color: #023047;
+}
+.items li a:hover {
+  text-decoration: underline;
 }
 
 .search form {
@@ -90,6 +94,7 @@
   line-height: 80px;
   font-family: Jost, sans-serif;
   font-weight: 600;
+  color: #023047;
 }
 .rightside-menu__item:hover {
   text-decoration: underline;
@@ -177,14 +182,14 @@
   border: none;
   cursor: pointer;
   color: white;
-  transition: top ease 1s;
   position: relative;
   font-family: Jost, sans-serif;
   font-weight: 600;
+  transition: 0.6s;
 }
 .hero__btn button:hover {
-  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
-  transition: 1s;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1);
 }
 
 .collections {
@@ -250,10 +255,10 @@
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+  transition: 0.6s;
 }
 .collections__btn:hover {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  transition: 1s;
 }
 
 .bestsellers {
@@ -421,10 +426,10 @@
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+  transition: 0.6s;
 }
 .offer__btn:hover {
-  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
-  transition: 1s;
+  box-shadow: 0 10px 15px 0 rgba(255, 255, 255, 0.5);
 }
 
 .policy {
@@ -508,11 +513,10 @@
 .blog__post-btn {
   background: #023047;
   color: white;
+  transition: 0.6s;
 }
 .blog__post-btn:hover {
-  top: -5px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  transition: 1s;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
 }
 .blog__big {
   grid-row: span 2;
@@ -535,11 +539,13 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 31px;
-  color: #333333;
   text-decoration: underline;
   margin-top: 8px;
   margin-bottom: 9px;
   max-width: 530px;
+}
+.blog__big__title a {
+  color: #333333;
 }
 .blog__min img {
   width: 100%;
@@ -554,10 +560,12 @@
   font-family: Jost, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #333333;
   text-decoration: underline;
   margin-top: 8px;
   max-width: 265px;
+}
+.blog__min__title a {
+  color: #333333;
 }
 .blog__descr {
   font-family: Jost, sans-serif;
@@ -620,10 +628,10 @@
   background: #023047;
   cursor: pointer;
   color: white;
+  transition: 0.6s;
 }
 .newsletter__email form button:hover {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  transition: 1s;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .instagram {

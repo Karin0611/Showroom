@@ -21,7 +21,7 @@ function cleanDist() {
 }
 
 function images() {
-  return src('src/images/**/*')
+  return src('src/img/**/*')
     .pipe(imagemin(
       [
         imagemin.gifsicle({ interlaced: true }),
@@ -35,15 +35,13 @@ function images() {
         })
       ]
     ))
-    .pipe(dest('dist/images'))
+    .pipe(dest('dist/img'))
 }
 
 function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js',
     'node_modules/slick-carousel/slick/slick.js',
-    'node_modules/mixitup/dist/mixitup.js',
-    'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
     'src/js/main.js'
   ])
     .pipe(concat('main.min.js'))
@@ -85,7 +83,7 @@ exports.styles = styles;
 exports.watching = watching;
 exports.browsersync = browsersync;
 exports.scripts = scripts;
-exports.images = images;
+exports.img = images;
 exports.cleanDist = cleanDist;
 
 
